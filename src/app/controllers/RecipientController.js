@@ -34,6 +34,32 @@ class RecipientController {
       email,
     });
   }
+
+  async update(req, res) {
+    const user = await Recipient.findByPk(req.userId);
+
+    const {
+      nome,
+      rua,
+      complemento,
+      estado,
+      cidade,
+      cep,
+      numero,
+      email,
+    } = await user.update(req.body);
+
+    return res.json({
+      nome,
+      rua,
+      complemento,
+      estado,
+      cidade,
+      cep,
+      numero,
+      email,
+    });
+  }
 }
 
 export default new RecipientController();
