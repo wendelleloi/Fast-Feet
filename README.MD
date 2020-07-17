@@ -8,18 +8,17 @@ A construção desse aplicativo se trata de um desafio do bootcamp Go Stack em q
 no desenvolvimento de um app para uma transportadora fictícia chamada FastFeet
 
 <p align="center">
-  <a href="#zap-techs">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#zap-Tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#wrench-funcionalidades">Funcionalidades</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-license">Licença</a>
 </p>
 
-## :zap: Techs
+## :zap: Tecnologias
 
-The following technologies were used to build this project:
+Tecnologias usadas nesse projeto.
 
 - [Node.js](https://nodejs.org/en/)
 - [Express](https://expressjs.com/)
-- [Unform](https://unform.dev/)
 - [Yup](https://github.com/jquense/yup)
 - [PostgreSQL](https://www.postgresql.org/)
 - [Sequelize](https://sequelize.org/)
